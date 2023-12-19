@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assigment 03  (Module B) </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <h1>Mobile Phone Search By (Model, Company, Price, Camera, Ram, Rom.....)</h1>
+    <label for="searchBy">Search By:</label>
+    <select  id="searchBy">
+        <option value="brand">Brand</option>
+        <option value="model">Model</option>
+        <option value="camera">Camera</option>
+        <option value="price">Price</option>
+        <option value="ram">Ram</option>
+        <option value="rom">Rom</option>
+    </select>
+
+    <label for="searchValue">Enter Value:</label>
+    <input type="text" id="searchValue">
+
+    <button onclick="search_Mobile_Phones()">Search</button>
+
+    <div id="result"></div>
+    
+    
+    
+    <script src="app.js"></script>
+</body>
+</html>
